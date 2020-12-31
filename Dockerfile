@@ -1,4 +1,4 @@
-FROM golang:1.15.3
+FROM golang:1.15
 ARG SQLBOILER_VERSION
 ENV GO111MODULE=on
 RUN go get github.com/volatiletech/sqlboiler/v4@v$SQLBOILER_VERSION
